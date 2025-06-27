@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" bg-zinc-600 max-w-md  shadow-lg bg-black/20 backdrop-blur-sm p-4 border border-white/20 rounded-md">
+    <h1>Enter Your Info</h1>
+    <form method="POST" action="/submit">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required>
+        Email: <input type="email" name="email" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
